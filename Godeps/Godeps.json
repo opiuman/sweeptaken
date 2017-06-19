@@ -1,0 +1,105 @@
+{
+	"ImportPath": "github.com/opiuman/sweeptaken",
+	"GoVersion": "go1.8",
+	"Deps": [
+		{
+			"ImportPath": "github.com/ChimeraCoder/anaconda",
+			"Rev": "0530dae79525a856cc778e15c4c2b03c3f6934b9"
+		},
+		{
+			"ImportPath": "github.com/ChimeraCoder/tokenbucket",
+			"Rev": "c5a927568de7aad8a58127d80bcd36ca4e71e454"
+		},
+		{
+			"ImportPath": "github.com/Shopify/sarama",
+			"Comment": "v1.9.0-60-ge8020bf",
+			"Rev": "e8020bffa1cae3ddf8068cb03416fc53d1627f3d"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.0-20-g42b84f9",
+			"Rev": "42b84f9ec624953ecbf81a94feccb3f5935c5edf"
+		},
+		{
+			"ImportPath": "github.com/azr/backoff",
+			"Rev": "53511d3c733003985b0b76f733df1f4d0095ee6a"
+		},
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Rev": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
+		},
+		{
+			"ImportPath": "github.com/dustin/go-jsonpointer",
+			"Rev": "ba0abeacc3dcca5b9b20f31509c46794edbc9965"
+		},
+		{
+			"ImportPath": "github.com/dustin/gojson",
+			"Rev": "2e71ec9dd5adce3b168cd0dbde03b5cc04951c30"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-resiliency/breaker",
+			"Comment": "v1.0.0-4-gb86b1ec",
+			"Rev": "b86b1ec0dd4209a588dc1285cdd471e73525c0b3"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-xerial-snappy",
+			"Rev": "bb955e01b9346ac19dc29eb16586c90ded99a98c"
+		},
+		{
+			"ImportPath": "github.com/eapache/queue",
+			"Comment": "v1.0.2",
+			"Rev": "ded5959c0d4e360646dc9e9908cff48666781367"
+		},
+		{
+			"ImportPath": "github.com/garyburd/go-oauth/oauth",
+			"Rev": "d9dbc37b1a7acf4923050e614fc7861e3fbf42f9"
+		},
+		{
+			"ImportPath": "github.com/goibibo/KafkaLogrus",
+			"Rev": "d7f53318c1b1b4acecd550a1316f00972083ac8c"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "857ad66e003f466b64f9055849bab122efd4c87a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "1c83b3eabd45b6d76072b66b746c20815fb2872d"
+		},
+		{
+			"ImportPath": "github.com/klauspost/crc32",
+			"Comment": "v1.0",
+			"Rev": "19b0b332c9e4516a6370a0456e6182c3b5036720"
+		},
+		{
+			"ImportPath": "github.com/opiuman/envparser",
+			"Rev": "1583a8e80d01c44604ae05b8377b50bc2d7433f0"
+		},
+		{
+			"ImportPath": "github.com/opiuman/middleware",
+			"Rev": "0cb89e69f6c0d9bbadcb864f01b594f34645c269"
+		},
+		{
+			"ImportPath": "github.com/opiuman/negroni",
+			"Comment": "v0.1-72-g474df12",
+			"Rev": "474df12e7e16535fff1c01e95e73b1b6996ed2e0"
+		},
+		{
+			"ImportPath": "github.com/streadway/amqp",
+			"Rev": "2e25825abdbd7752ff08b270d313b93519a0a232"
+		},
+		{
+			"ImportPath": "github.com/vladoatanasov/logrus_amqp",
+			"Rev": "4873eb44ad16a18f8a1eaed3d77f2eb1c1956801"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2015.10.05-1-g4d04138",
+			"Rev": "4d04138ffef2791c479c0c8bbffc30b34081b8d9"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "7ad95dd0798a40da1ccdff6dff35fd177b5edf40"
+		}
+	]
+}

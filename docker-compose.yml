@@ -1,0 +1,32 @@
+version: "2"
+services:
+  sweeptaken:
+    image: opiuman/sweeptaken
+    container_name: sweeptaken
+    #restart: always
+    network_mode: "bridge"
+    environment:
+      SWEEPTAKEN_TWITTER_CONSUMERKEY:
+      SWEEPTAKEN_TWITTER_CONSUMERSECRET:
+      SWEEPTAKEN_TWITTER_ACCESSTOKEN:
+      SWEEPTAKEN_TWITTER_TOKENSECRET:
+
+      SWEEPTAKEN_TRACKS: "[#giveaway, #contest, #sweeptakes, #contest, #free]"
+
+
+      SWEEPTAKEN_LOG_LEVEL: info
+      SWEEPTAKEN_LOG_FILE: 
+
+      
+    # logging:
+    #   driver: splunk
+    #   options:
+    #     splunk-token: 
+    #     splunk-url: 
+    #     splunk-insecureskipverify: "true"
+    #     splunk-sourcetype: "http_docker"
+    #     tag: "{{.Name}}"
+
+      
+          
+
